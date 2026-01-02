@@ -168,7 +168,7 @@ The template can be deployed to any static hosting service easily (and in most c
 
 - To deploy with Netlify, [click here](https://docs.astro.build/en/guides/deploy/netlify/).
 - To deploy with Vercel, [click here](https://docs.astro.build/en/guides/deploy/vercel/).
-- To deploy with GitHub Pages,[click here](https://docs.astro.build/en/guides/deploy/github/).
+- To deploy with GitHub Pages,[click here](https://docs.astro.build/en/guides/deploy/github/). Deployed via GitHub Actions.
 - To deploy with Cloudflare Pages, [click here](https://docs.astro.build/en/guides/deploy/cloudflare/).
 - To deploy with Render, [click here](https://docs.astro.build/en/guides/deploy/render/).
 
