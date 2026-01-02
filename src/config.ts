@@ -1,91 +1,66 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Qiaoni Pan",
+  title: "Backend & AI Engineer",
+  description:
+    "Platform-focused software engineer with experience building production systems at scale. Interested in reliability, observability, and understanding where AI systems break in real-world environments.",
+
   accentColor: "#1d4ed8",
+
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "qiaonipan99@gmail.com",
+    linkedin: "https://www.linkedin.com/in/qiaoni-pan",
+    twitter: "https://x.com/PanQiaoni72078",
+    github: "https://github.com/qiaonipan",
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+
+  aboutMe: `
+I am a backend and AI engineer with hands-on experience building and operating large-scale cloud systems and production-style AI pipelines.
+
+My background is platform-focused: I enjoy working at the intersection of backend services, infrastructure, and developer experience. I care deeply about system reliability, observability, and making complex systems easier to reason about and operate.
+
+Recently, I have been exploring AI-assisted diagnostics in distributed systems, especially where semantic search and LLMs help — and where they fail — due to state-heavy, causality-sparse production data.
+  `,
+
+  skills: [
+    "Backend Engineering (Python, Go, Java)",
+    "APIs & Services (FastAPI, REST)",
+    "Cloud & Infrastructure (AWS, OCI, Kubernetes, Docker)",
+    "Observability (Grafana, Prometheus)",
+    "Data & Storage (PostgreSQL, Data Modeling)",
+    "AI Systems (RAG, Vector Databases, Semantic Search)",
+  ],
+
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Production-Style RAG System over HDFS Logs",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Designed and built a semantic search + RAG system over real HDFS production logs. The system retrieves semantically relevant logs and generates evidence-backed summaries, while exposing the limitations of state-oriented logs for causal diagnosis.",
+      techStack: [
+        "OpenAI Embeddings",
+        "Oracle 26ai Vector Search",
+        "FastAPI",
+        "Python",
+      ],
+      highlights: [
+        "End-to-end RAG pipeline: embedding, vector search, and generation",
+        "Built over real HDFS production logs (not synthetic data)",
+        "Identified state-vs-cause gaps in AI-assisted system diagnosis",
+      ],
+      link: "https://github.com/qiaonipan/90-days-ai-backend-reborn",
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Cloud Automation & Platform Tooling",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Worked on backend automation and platform tooling for large-scale cloud environments, focusing on operational reliability and developer onboarding efficiency.",
+      techStack: [
+        "Python",
+        "CI/CD",
+        "Cloud Infrastructure",
+        "Internal Tooling",
       ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+      highlights: [
+        "Improved operational workflows through automation",
+        "Focused on production readiness and system reliability",
       ],
     },
   ],
