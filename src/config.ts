@@ -1,93 +1,92 @@
 export const siteConfig = {
-  name: "Qiaoni Pan",
-  title: "Backend & AI Engineer",
-  description:
-    "Platform-focused software engineer with experience building production systems at scale. Interested in reliability, observability, and understanding where AI systems break in real-world environments.",
-
+  name: "Ryan Fitzgerald",
+  title: "Senior Software Engineer",
+  description: "Portfolio website of Ryan Fitzgerald",
   accentColor: "#1d4ed8",
-
   social: {
-    email: "qiaonipan99@gmail.com",
-    linkedin: "https://www.linkedin.com/in/qiaoni-pan",
-    twitter: "https://x.com/PanQiaoni72078",
-    github: "https://github.com/qiaonipan",
+    email: "your-email@example.com",
+    linkedin: "https://linkedin.com/in/yourprofile",
+    twitter: "https://x.com/rfitzio",
+    github: "https://github.com/RyanFitzgerald",
   },
-
-  aboutMe: `
-I am a backend and AI engineer with hands-on experience building and operating large-scale cloud systems and production-style AI pipelines.
-
-My background is platform-focused: I enjoy working at the intersection of backend services, infrastructure, and developer experience. I care deeply about system reliability, observability, and making complex systems easier to reason about and operate.
-
-Recently, I have been exploring AI-assisted diagnostics in distributed systems, especially where semantic search and LLMs help — and where they fail — due to state-heavy, causality-sparse production data.
-  `,
-
-  skills: [
-    "Backend Engineering (Python, Go, Java)",
-    "APIs & Services (FastAPI, REST)",
-    "Cloud & Infrastructure (AWS, OCI, Kubernetes, Docker)",
-    "Observability (Grafana, Prometheus)",
-    "Data & Storage (PostgreSQL, Data Modeling)",
-    "AI Systems (RAG, Vector Databases, Semantic Search)",
-  ],
-
+  aboutMe:
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
   projects: [
     {
-      name: "90 Days: AI Backend Reborn",
+      name: "AI Dev Roundup Newsletter",
       description:
-        "Open-source self-learning project: daily building AI + backend systems from local semantic search to production-style RAG with Oracle 26ai vector database and OpenAI embeddings. " +
-        "Focused on observability in distributed systems (HDFS logs).",
-      link: "https://github.com/qiaonipan/90-days-ai-backend-reborn",
-      tags: ["RAG", "Oracle 26ai", "FastAPI", "Python", "OpenAI"],
+        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+      link: "https://aidevroundup.com/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      description:
+        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+      link: "https://fullstackextensions.com/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
+    },
+    {
+      name: "ExtensionKit",
+      description:
+        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["React", "Node.js", "AWS"],
     },
   ],
   experience: [
     {
-      role: "Full-Stack Software Engineer",
-      company: "OU Health",
-      location: "Norman, OK",
-      period: "Oct 2025 – Present",
-      description: [
-        "Engineered secure backend systems with FastAPI and Node.js for anonymous incident workflows",
-        "Redesigned PostgreSQL schemas with RBAC & encryption → 50% query latency reduction",
-        "Collaborated on AI-driven analysis using VR eye-tracking and behavioral data",
+      company: "Tech Company",
+      title: "Senior Software Engineer",
+      dateRange: "Jan 2022 - Present",
+      bullets: [
+        "Led development of microservices architecture serving 1M+ users",
+        "Reduced API response times by 40% through optimization",
+        "Mentored team of 5 junior developers",
       ],
     },
     {
-      role: "Software Engineer IC2",
-      company: "Oracle America, Inc.",
-      location: "Broomfield, CO",
-      period: "Feb 2024 – Aug 2025",
-      description: [
-        "Designed resilient cloud-native services processing 50%+ of global Oracle service requests",
-        "Re-platformed legacy tools to Python/OCI → eliminated 4,000+ monthly manual tickets",
-        "Authored 15+ onboarding documents → reduced onboarding time by ~50%",
+      company: "Startup Inc",
+      title: "Full Stack Developer",
+      dateRange: "Jun 2020 - Dec 2021",
+      bullets: [
+        "Built and launched MVP product from scratch using React and Node.js",
+        "Implemented CI/CD pipeline reducing deployment time by 60%",
+        "Collaborated with product team to define technical requirements",
       ],
     },
     {
-      role: "Software Engineer Intern",
-      company: "Oracle",
-      location: "Broomfield, CO",
-      period: "May 2023 – Aug 2023",
-      description: [
-        "Built cloud data extraction pipelines across 49+ OCI instances → 90% throughput increase",
-        "Designed ERD and data models for ML analytics → reduced downstream failures by 30%",
+      company: "Digital Agency",
+      title: "Frontend Developer",
+      dateRange: "Aug 2018 - May 2020",
+      bullets: [
+        "Developed responsive web applications for 20+ clients",
+        "Improved site performance scores by 35% on average",
+        "Introduced modern JavaScript frameworks to legacy codebases",
       ],
     },
   ],
   education: [
     {
-      degree: "M.Eng. in Computer Engineering",
-      school: "University of Virginia",
-      period: "Aug 2022 – Dec 2023",
-      gpa: "GPA: 3.61/4.0",
-      focus: "Machine Learning, Distributed Systems, Cloud Computing",
+      school: "University Name",
+      degree: "Bachelor of Science in Computer Science",
+      dateRange: "2014 - 2018",
+      achievements: [
+        "Graduated Magna Cum Laude with 3.8 GPA",
+        "Dean's List all semesters",
+        "President of Computer Science Club",
+      ],
     },
     {
-      degree: "B.Eng. in Software Engineering",
-      school: "Zhejiang Normal University",
-      period: "Sep 2018 – May 2022",
-      gpa: "CGPA: 89/100",
-      award: "Zhejiang Provincial Government Scholarship (top 3%)",
+      school: "Online Platform",
+      degree: "Full Stack Development Certificate",
+      dateRange: "2019",
+      achievements: [
+        "Completed 500+ hours of coursework",
+        "Built 10+ portfolio projects",
+        "Specialized in React and Node.js",
+      ],
     },
   ],
 };
