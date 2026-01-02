@@ -9,16 +9,15 @@ export const siteConfig = {
     twitter: "https://x.com/PanQiaoni72078",
     github: "https://github.com/qiaonipan",
   },
-  aboutMe:
-    "I am a backend and AI engineer with hands-on experience building and operating large-scale cloud systems and production-style AI pipelines. My background is platform-focused: I enjoy working at the intersection of backend services, infrastructure, and developer experience. I care deeply about system reliability, observability, and making complex systems easier to reason about and operate.Recently, I have been exploring AI-assisted diagnostics in distributed systems, especially where semantic search and LLMs help — and where they fail — due to state-heavy, causality-sparse production data."
-    skills: [
-    "Python, Go, Java, JavaScript",
-    "FastAPI, REST APIs, Node.js",
-    "AWS, OCI, Kubernetes, Docker, Terraform",
-    "CI/CD (GitHub Actions, Jenkins)",
-    "Observability (Grafana, Prometheus)",
-    "PostgreSQL, RBAC, Data Modeling",
-    "RAG, Vector Databases (Oracle 26ai), Semantic Search",
+  aboutMe: [
+    "Backend & AI Engineer building production AI systems where reliability actually matters. Currently building production-style AI systems for log analysis and failure diagnostics using RAG and vector databases."
+  ],
+  skills: [
+    "Python",
+    "Go",
+    "Backend APIs (FastAPI, REST)",
+    "Cloud & Kubernetes",
+    "RAG / Vector Databases",
   ],
   projects: [
     {
@@ -55,6 +54,23 @@ export const siteConfig = {
       company: "Oracle America, Inc.",
       title: "Software Engineer Intern",
       dateRange: "May 2023 – Aug 2023",
+      bullets: [
+        "Led a team of 25+ developers to build scalable education platforms serving 1,000+ underprivileged children.",
+      ],
+    },
+    {
+      company: "Education Without Barriers",
+      title: "Website Team Lead",
+      dateRange: "June 2021 - Oct 2022",
+      bullets: [
+        "Built cloud data extraction pipelines across 49+ OCI instances → 90% throughput increase",
+        "Designed ERD and data models for ML analytics → reduced downstream failures by 30%",
+      ],
+    },
+      {
+      company: "Iflytek Co., Ltd",
+      title: "Junior Technical Support Engineer Intern",
+      dateRange: "July 2021 - Sep 2021",
       bullets: [
         "Built cloud data extraction pipelines across 49+ OCI instances → 90% throughput increase",
         "Designed ERD and data models for ML analytics → reduced downstream failures by 30%",
