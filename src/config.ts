@@ -32,36 +32,62 @@ Recently, I have been exploring AI-assisted diagnostics in distributed systems, 
 
   projects: [
     {
-      name: "Production-Style RAG System over HDFS Logs",
+      name: "90 Days: AI Backend Reborn",
       description:
-        "Designed and built a semantic search + RAG system over real HDFS production logs. The system retrieves semantically relevant logs and generates evidence-backed summaries, while exposing the limitations of state-oriented logs for causal diagnosis.",
-      techStack: [
-        "OpenAI Embeddings",
-        "Oracle 26ai Vector Search",
-        "FastAPI",
-        "Python",
-      ],
-      highlights: [
-        "End-to-end RAG pipeline: embedding, vector search, and generation",
-        "Built over real HDFS production logs (not synthetic data)",
-        "Identified state-vs-cause gaps in AI-assisted system diagnosis",
-      ],
+        "Open-source self-learning project: daily building AI + backend systems from local semantic search to production-style RAG with Oracle 26ai vector database and OpenAI embeddings. " +
+        "Focused on observability in distributed systems (HDFS logs).",
       link: "https://github.com/qiaonipan/90-days-ai-backend-reborn",
+      tags: ["RAG", "Oracle 26ai", "FastAPI", "Python", "OpenAI"],
+    },
+  ],
+  experience: [
+    {
+      role: "Full-Stack Software Engineer",
+      company: "OU Health",
+      location: "Norman, OK",
+      period: "Oct 2025 – Present",
+      description: [
+        "Engineered secure backend systems with FastAPI and Node.js for anonymous incident workflows",
+        "Redesigned PostgreSQL schemas with RBAC & encryption → 50% query latency reduction",
+        "Collaborated on AI-driven analysis using VR eye-tracking and behavioral data",
+      ],
     },
     {
-      name: "Cloud Automation & Platform Tooling",
-      description:
-        "Worked on backend automation and platform tooling for large-scale cloud environments, focusing on operational reliability and developer onboarding efficiency.",
-      techStack: [
-        "Python",
-        "CI/CD",
-        "Cloud Infrastructure",
-        "Internal Tooling",
+      role: "Software Engineer IC2",
+      company: "Oracle America, Inc.",
+      location: "Broomfield, CO",
+      period: "Feb 2024 – Aug 2025",
+      description: [
+        "Designed resilient cloud-native services processing 50%+ of global Oracle service requests",
+        "Re-platformed legacy tools to Python/OCI → eliminated 4,000+ monthly manual tickets",
+        "Authored 15+ onboarding documents → reduced onboarding time by ~50%",
       ],
-      highlights: [
-        "Improved operational workflows through automation",
-        "Focused on production readiness and system reliability",
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Oracle",
+      location: "Broomfield, CO",
+      period: "May 2023 – Aug 2023",
+      description: [
+        "Built cloud data extraction pipelines across 49+ OCI instances → 90% throughput increase",
+        "Designed ERD and data models for ML analytics → reduced downstream failures by 30%",
       ],
+    },
+  ],
+  education: [
+    {
+      degree: "M.Eng. in Computer Engineering",
+      school: "University of Virginia",
+      period: "Aug 2022 – Dec 2023",
+      gpa: "GPA: 3.61/4.0",
+      focus: "Machine Learning, Distributed Systems, Cloud Computing",
+    },
+    {
+      degree: "B.Eng. in Software Engineering",
+      school: "Zhejiang Normal University",
+      period: "Sep 2018 – May 2022",
+      gpa: "CGPA: 89/100",
+      award: "Zhejiang Provincial Government Scholarship (top 3%)",
     },
   ],
 };
