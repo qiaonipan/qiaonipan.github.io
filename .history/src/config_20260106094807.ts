@@ -67,7 +67,7 @@ export const siteConfig = {
         "Led 25+ global developers building scalable educational platforms serving 1,000+ left-behind children as technical bridge.",
       ],
     },
-    {
+      {
       company: "Iflytek Co., Ltd",
       title: "Junior Technical Support Engineer Intern",
       dateRange: "July 2021 - Sep 2021",
@@ -91,7 +91,7 @@ export const siteConfig = {
       degree: "Bachelor of Engineering in Software Engineering",
       dateRange: "Sep 2018 – May 2022",
       achievements: [
-        "Award: Zhejiang Provincial Government Scholarship (top 3% of 1.258 million)",
+        "Award: Zhejiang Provincial Government Scholarship (top 3%)",
         "Focus: Object-Oriented Programming, Data Structures, Database Systems",
       ],
     },
