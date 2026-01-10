@@ -24,7 +24,7 @@ export const siteConfig = {
     {
     name: "AI-Powered Log Intelligence Platform (Oracle 26ai RAG)",
     description: "Built a production-oriented AI log intelligence platform enabling engineers to diagnose failures via natural-language queries over large-scale system logs.",
-    link: "https://github.com/qiaonipan/90-days-ai-backend-reborn/blob/main/Day12-successful-deploy/README.md",
+    link: "https://github.com/qiaonipan/90-days-ai-backend-reborn/blob/main/Day13-14-cause-oriented/README.md",
     skills: [
       "RAG System Design",
       "Vector & Hybrid Search",
