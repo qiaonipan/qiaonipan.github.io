@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/qiaonipan",
   },
   aboutMe: [
-    "Backend & AI Engineer building production AI systems where reliability actually matters. Currently building production-style AI systems for log analysis and failure diagnostics using RAG and vector databases."
+    "Backend & AI Engineer building production AI systems where reliability actually matters. Focused on production-grade systems, search, and AI-assisted diagnostics."
   ],
   skills: [
     "Python",
@@ -22,20 +22,27 @@ export const siteConfig = {
   projects: [
     {
     name: "AI-Powered Log Intelligence Platform (Oracle 26ai RAG)",
-    description:
-      "Built a production-oriented AI log intelligence system that enables engineers to diagnose failures by asking natural-language questions over large-scale system logs. " +
-      "Implemented an end-to-end RAG pipeline using OpenAI embeddings and Oracle Autonomous Database 26ai native vector search to semantically index and retrieve 1,000+ real HDFS production logs. " +
-      "The system supports hybrid semantic + keyword search, AI-assisted root cause analysis, and evidence highlighting to accelerate incident investigation.",
+    description: "Built a production-oriented AI log intelligence platform enabling engineers to diagnose failures via natural-language queries over large-scale system logs.",
     link: "https://github.com/qiaonipan/90-days-ai-backend-reborn/blob/main/Day12-successful-deploy/README.md",
-    skills: ["RAG System Design", "Vector & Hybrid Search", "OpenAI Embeddings & LLMs", "Python", "Troubleshooting"],
+    skills: [
+      "RAG System Design",
+      "Vector & Hybrid Search",
+      "LLM Integration (OpenAI)",
+      "Production Log Analysis",
+      "AI-Assisted Troubleshooting"
+    ]
     },
     {
       name: "90 Days: AI Backend Reborn",
-      description:
-        "Open-source self-learning project: daily building AI + backend systems from local semantic search to production-style RAG with Oracle 26ai vector database and OpenAI embeddings. " +
-        "Focused on observability in distributed systems (HDFS logs).",
+      description: "A structured engineering deep-dive documenting the design, iteration, and trade-offs behind building production-style AI backend systems—from semantic search to full RAG pipelines. ",
       link: "https://github.com/qiaonipan/90-days-ai-backend-reborn",
-      skills: ["RAG", "Oracle 26ai", "FastAPI", "Python", "OpenAI"],
+      skills: [
+        "AI Backend Architecture",
+        "System Design Trade-offs",
+        "Iterative Engineering",
+        "FastAPI",
+        "Python"
+      ]
     },
   ],
   experience: [
