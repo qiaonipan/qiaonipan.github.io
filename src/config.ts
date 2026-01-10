@@ -10,14 +10,15 @@ export const siteConfig = {
     github: "https://github.com/qiaonipan",
   },
   aboutMe: [
-    "Backend & AI Engineer building production AI systems where reliability actually matters. Focused on production-grade systems, search, and AI-assisted diagnostics."
+    "Backend & AI Engineer building reliable, scalable systems and AI infrastructure."
   ],
   skills: [
-    "Python",
-    "Go",
-    "Backend APIs (FastAPI, REST)",
-    "Cloud & Kubernetes",
-    "RAG / Vector Databases",
+    "Python/Go",
+    "Backend APIs (FastAPI/REST)",
+    "Kubernetes",
+    "Cloud Architecture",
+    "RAG/Vector DB",
+    "Scalable Systems"
   ],
   projects: [
     {
