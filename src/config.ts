@@ -113,4 +113,42 @@ export const siteConfig = {
       ],
     },
   ],
+  recommendations: [
+    {
+      name: "Deborah Smith",
+      role: "Vice President Customer Service",
+      company: "Oracle America, Inc.",
+      text: "Qiaoni is an exceptional engineer with deep technical expertise and commitment to high-quality cloud-native solutions. She also has rare charisma that unites teams, fostering collaboration and enthusiasm in high-pressure settings.",
+    },
+    {
+      name: "Patrick Hooley",
+      role: "Direct Manager",
+      company: "Oracle America, Inc.",
+      text: "Qiaoni wrote clean code and engineered automation tools that reduced manual service request involvement by 40%, accelerated resolution cycles, and improved data extraction efficiency by 90%.",
+    },
+    {
+      name: "Trish Sullivan",
+      role: "Program Manager",
+      company: "Oracle America, Inc.",
+      text: "Qiaoni collaborated well across our support, engineering and infrastructure teams. By using scrum methodology utilizing Jira and Confluence she worked on cross-team projects by communicating in a clear and concise to resolve complex technical issues.",
+    },
+    {
+      name: "Ziho Kang",
+      role: "Associate Professor",
+      company: "University of Oklahoma",
+      text: "Qiaoni's ability to translate new technologies and complex requirements into elegant technical solutions is remarkable. She's a valuable asset to any engineering team.",
+    },
+    {
+      name: "Yutian Thompson",
+      role: "Associate Professor",
+      company: "OU Health",
+      text: "Qiaoni is a proactive engineer who consistently delivers beyond expectations. Her work on AI-driven systems showcases both technical excellence and innovation.",
+    },
+    {
+      name: "Qiaoni Pan",
+      role: "Software Engineer",
+      company: "OU Health",
+      text: "I am a self-driven engineer with a systematic approach to new challenges, enabling quick ramp-up and high impact. I am eager to continue growing and contribute meaningfully to my future team.",
+    },
+  ],
 };
